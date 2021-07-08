@@ -51,16 +51,29 @@ heuristic that also selects features that are far away from
 each other while still having a ”high” correlation to the
 classification variable.
 
+
+
 ## Dimension Reduction
 
 LDA is a dimension reduction algorithm,that maximizes the ratio of the between-class
 variance to the within-class variance. This guarantees maximum class separability.
 
+![ICA](/assets/ICA.png)
+![PCA](/assets/PCA.png)
+![LDA](/assets/LDA.png)
 
+
+## Decision Surface
+
+After running the model, the accuracy of the model is a high 99.48% and a maximum difference in the cross validation of 2.48%.
+
+![results](/assets/results.png)
+![surface](/assets/decision.png)
 # Detailed Information and though processes
 
 Detailed information of the data preprocessing and classifier choices are written in the detail.pdf file.
 This is the final report for this project.
+
 
 
 
